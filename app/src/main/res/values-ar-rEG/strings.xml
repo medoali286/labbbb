@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 2</string>
+    <string name="click_here">انقر هنا</string>
+    <string name="check_this_out">تحقق من هذا</string>
+    <string name="lab_2_gui">معمل 2 واجهة المستخدم الرسومية</string>
+    <string name="switch_on_off">"تشغيل / إيقاف "</string>
+    <string name="toast_message">هنا مزيد من المعلومات</string>
+    <string name="The_switch_is_now_on">المفتاح قيد التشغيل الآن</string>
+    <string name="The_switch_is_now_off">المفتاح مغلق الآن</string>
+    <string name="enter_name_here">أدخل الاسم هنا</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+   
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab_2_gui"
+        android:textSize="34sp"
+        android:textAlignment="center" />
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:onClick="Click_here"
+            android:text="@string/click_here"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+        <CheckBox
+
+
+            android:onClick="onCheckChanged"
+            android:text="@string/check_this_out"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag" />
+
+
+
+
+
+      <androidx.appcompat.widget.SwitchCompat
+
+          android:text="@string/switch_on_off"
+          android:id="@+id/on_of_Switch"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/enter_name_here"
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

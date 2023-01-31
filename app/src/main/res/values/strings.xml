@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="click_here">Click here</string>
+    <string name="check_this_out">Check this out</string>
+    <string name="lab_2_gui">Lab 2 GUI</string>
+    <string name="switch_on_off">Switch on / off</string>
+    <string name="toast_message">Here is more information</string>
+    <string name="The_switch_is_now_on">The switch is now ON</string>
+    <string name="The_switch_is_now_off">The switch is now oFF</string>
+    <string name="enter_name_here">Enter Name Here</string>
+
+</resources>
